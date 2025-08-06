@@ -36,7 +36,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import type { Task } from "@/types/task";
 
 // Import data and utilities
-import { tabsData } from "@/data/tabs-data";
+import { tabsData } from "@/Data/tabs-data";
 import { formatTime } from "@/utils/time-utils";
 import { initializeTabTasks } from "@/utils/task-utils";
 

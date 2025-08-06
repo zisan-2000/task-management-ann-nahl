@@ -41,7 +41,7 @@ import {
   clientSatisfactionData,
   revenuePackageData,
   weeklyTaskStatusData,
-} from "@/data/dashboard-data";
+} from "@/Data/dashboard-data";
 
 export function SimpleOverviewDashboard() {
   const [timeRange, setTimeRange] = useState("month");

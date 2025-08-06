@@ -40,9 +40,9 @@ import {
 } from "@/components/ui/accordion";
 
 // Import data from separate files
-import { initialProjects } from "@/data/projects";
-import { taskCategories } from "@/data/task-categories";
-import { packages } from "@/data/packages";
+import { initialProjects } from "@/Data/projects";
+import { taskCategories } from "@/Data/task-categories";
+import { packages } from "@/Data/packages";
 
 const AgentProjects = () => {
   const [projects, setProjects] = useState(initialProjects);
