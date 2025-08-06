@@ -487,15 +487,14 @@ export default function TemplateListPage() {
                     </Button>
                   )}
                 </div>
-                {hasPermissionClient(user?.permissions, "template_edit") && (
-                  <Button
-                    onClick={() => setIsCreateModalOpen(true)}
-                    className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white shadow-lg hover:shadow-xl transition-all duration-200 rounded-xl px-6"
-                  >
-                    <Plus className="w-4 h-4 mr-2" />
-                    Add Template
-                  </Button>
-                )}
+
+                <Button
+                  onClick={() => setIsCreateModalOpen(true)}
+                  className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white shadow-lg hover:shadow-xl transition-all duration-200 rounded-xl px-6"
+                >
+                  <Plus className="w-4 h-4 mr-2" />
+                  Add Template
+                </Button>
               </div>
             </CardContent>
           </Card>
