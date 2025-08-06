@@ -13,7 +13,7 @@ export async function GET(req: Request) {
     where: {
       packageId: packageId || undefined,
     },
-    include: { socialLinks: true },
+    // include: { socialLinks: true },
   });
 
   return NextResponse.json(clients);
